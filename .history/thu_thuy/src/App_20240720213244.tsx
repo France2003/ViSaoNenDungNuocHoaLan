@@ -7,15 +7,13 @@ function App() {
 
 
   return (
-    <div>
-      <BrowserRouter>
+    <BrowserRouter>
         <Routes>
           <Route path='/ViSaoNenDungNuocHoaLan/' element={<LayoutClient />}>
             <Route index element={<PageHome />} />
           </Route>
         </Routes>
       </BrowserRouter>
-    </div>
   )
 }
 
